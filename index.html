@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anket Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+        main {
+            margin: 20px;
+            padding: 20px;
+        }
+        img {
+            max-width: 200px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hoş Geldiniz</h1>
+        <p>Bu sayfa üzerinden hazırladığımız ankete ulaşabilirsiniz.</p>
+    </header>
+    <main>
+        <h2>Hakkımızda</h2>
+        <img src="https://via.placeholder.com/200" alt="Anket Yapanın Fotoğrafı">
+        <p>Merhaba! Ben [Adınız], bu anketi oluşturdum. Amacım [anket amacınızı yazın]. 
+           Katılımınız bizim için çok değerli. Lütfen zaman ayırarak ankete katılın.</p>
+        <button onclick="window.location.href='https://forms.google.com/example-link';">
+            Ankete Katıl
+        </button>
+    </main>
+    <footer>
+        <p>© 2024 Anket Projesi | <a href="mailto:example@example.com">Bize Ulaşın</a></p>
+    </footer>
+</body>
+</html>
